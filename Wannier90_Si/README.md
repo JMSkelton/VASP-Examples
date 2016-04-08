@@ -18,7 +18,7 @@ Running the example
 
   * Run Wannier90 with e.g. `wannier90.x wannier90` to calculate the maximally-localised Wannier functions (written to the checkpoint file `wannier90.chk`).
   
-  * Uncomment the band-structure tags in `wannier90.win` and re-run `Wannier90`; the band structure data will be written to `wannier90_band.dat` and `wannier90_band.kpt`, along with scripts for Gnuplot and Grace (`wannier90_band.gnu`, `wannier90_band.agr`).
+  * Uncomment the band-structure tags in `wannier90.win` and re-run Wannier90; the band structure data will be written to `wannier90_band.dat` and `wannier90_band.kpt`, along with scripts for Gnuplot and Grace (`wannier90_band.gnu`, `wannier90_band.agr`).
 
 Links
 -----
