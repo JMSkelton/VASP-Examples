@@ -1,0 +1,20 @@
+Begin Projections
+  Random
+End Projections
+
+guiding_centres=true
+
+!restart = plot
+
+!bands_plot = true
+
+!begin kpoint_path
+!  L  0.50000  0.50000 0.50000  G  0.00000  0.00000 0.00000
+!  G  0.00000  0.00000 0.00000  X  0.50000  0.00000 0.50000
+!  X  0.50000  0.00000 0.50000  W  0.50000  0.25000 0.75000
+!  W  0.50000  0.25000 0.75000  G  0.00000  0.00000 0.00000
+!end kpoint_path
+
+!bands_num_points 50
+
+!bands_plot_format gnuplot xmgrace
