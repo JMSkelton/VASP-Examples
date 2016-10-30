@@ -1,0 +1,15 @@
+ALGO = Normal
+EDIFF = 1E-8
+ENCUT = 400
+GGA = PE
+ISIF = 2
+ISMEAR = -5
+KPAR = 4
+LASPH = .TRUE.
+LREAL = .FALSE.
+NBANDS = 64
+NELMIN = 5
+NPAR = 1
+NSW = 0
+PREC = Accurate
+SYSTEM = SnS2

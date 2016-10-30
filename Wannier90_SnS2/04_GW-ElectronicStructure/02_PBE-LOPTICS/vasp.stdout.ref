@@ -1,0 +1,52 @@
+ running on   32 total cores
+ distrk:  each k-point on    8 cores,    4 groups
+ distr:  one band on    8 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.1 24Jun15 (build Feb 06 2016 13:21:38) complex                        
+  
+ POSCAR found type information on POSCAR  Sn S 
+ POSCAR found :  2 types and       3 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DIA:   1    -0.133480108336E+02   -0.13348E+02    0.00000E+00     0   0.000E+00    0.166E-05
+DIA:   2    -0.133480108320E+02    0.16216E-08    0.00000E+00     0   0.000E+00    0.848E-06
+DIA:   3    -0.133480108308E+02    0.12164E-08    0.00000E+00     0   0.000E+00    0.209E-06
+DIA:   4    -0.133480108310E+02   -0.23556E-09    0.00000E+00     0   0.000E+00    0.635E-07
+DIA:   5    -0.133480108312E+02   -0.16917E-09    0.00000E+00     0   0.000E+00
+   1 F= -.13348011E+02 E0= -.13348011E+02  d E =0.000000E+00
+ writing wavefunctions
+ optical routines
+ imaginary and real dielectric function
+ recalculating local potential from charge density
+ direction            1
+ direction            2
+ direction            3

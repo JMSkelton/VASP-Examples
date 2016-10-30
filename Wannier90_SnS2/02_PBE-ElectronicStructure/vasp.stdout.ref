@@ -1,0 +1,138 @@
+ running on   32 total cores
+ distrk:  each k-point on    4 cores,    8 groups
+ distr:  one band on    1 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.1 24Jun15 (build Feb 06 2016 13:21:38) complex                        
+  
+ POSCAR found type information on POSCAR  Sn S 
+ POSCAR found :  2 types and       3 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default, NPAR=number of cores might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.213919533614E+03    0.21392E+03   -0.69866E+03  5736   0.414E+02
+DAV:   2     0.151360158465E+02   -0.19878E+03   -0.17738E+03  4808   0.195E+02
+DAV:   3    -0.130266365051E+02   -0.28163E+02   -0.27658E+02  5208   0.453E+01
+DAV:   4    -0.138472226349E+02   -0.82059E+00   -0.81978E+00  5120   0.791E+00
+DAV:   5    -0.138556746890E+02   -0.84521E-02   -0.84514E-02  5792   0.801E-01    0.350E+00
+DAV:   6    -0.133772672519E+02    0.47841E+00   -0.36180E-01  6552   0.325E+00    0.157E+00
+DAV:   7    -0.133466462304E+02    0.30621E-01   -0.82286E-02  5816   0.806E-01    0.724E-01
+DAV:   8    -0.133474605199E+02   -0.81429E-03   -0.12263E-02  5288   0.353E-01    0.210E-01
+DAV:   9    -0.133479504717E+02   -0.48995E-03   -0.89740E-04  5136   0.866E-02    0.376E-02
+DAV:  10    -0.133479984988E+02   -0.48027E-04   -0.11049E-04  5184   0.265E-02    0.139E-02
+DAV:  11    -0.133480087432E+02   -0.10244E-04   -0.74901E-06  5008   0.122E-02    0.359E-03
+DAV:  12    -0.133480107788E+02   -0.20357E-05   -0.24934E-06  5120   0.537E-03    0.108E-03
+DAV:  13    -0.133480109061E+02   -0.12727E-06   -0.14009E-07  5200   0.111E-03    0.532E-04
+DAV:  14    -0.133480108053E+02    0.10081E-06   -0.35106E-08  5024   0.611E-04    0.208E-04
+DAV:  15    -0.133480108112E+02   -0.58421E-08   -0.22844E-09  4984   0.124E-04
+ Projection   1 done.
+ Projection   2 done.
+ Projection   3 done.
+ Projection   4 done.
+ Projection   5 done.
+ Projection   6 done.
+ Projection   7 done.
+ Projection   8 done.
+ Projection   9 done.
+ Projection  10 done.
+ Projection  11 done.
+ Projection  12 done.
+ Projection  13 done.
+ Projection  14 done.
+ Projection  15 done.
+ Projection  16 done.
+ Projection  17 done.
+ Projection  18 done.
+ Projection  19 done.
+ Projection  20 done.
+ Projection  21 done.
+ Projection  22 done.
+ Projection  23 done.
+ Projection  24 done.
+ Projection  25 done.
+ Projection  26 done.
+ Projection  27 done.
+ Projection  28 done.
+ Projection  29 done.
+ Projection  30 done.
+ Projection  31 done.
+ Projection  32 done.
+ Projection  33 done.
+ Projection  34 done.
+ Projection  35 done.
+ Projection  36 done.
+ Projection  37 done.
+ Projection  38 done.
+ Projection  39 done.
+ Projection  40 done.
+ Projection  41 done.
+ Projection  42 done.
+ Projection  43 done.
+ Projection  44 done.
+ Projection  45 done.
+ Projection  46 done.
+ Projection  47 done.
+ Projection  48 done.
+ Projection  49 done.
+ Projection  50 done.
+ Projection  51 done.
+ Projection  52 done.
+ Projection  53 done.
+ Projection  54 done.
+ Projection  55 done.
+ Projection  56 done.
+ Projection  57 done.
+ Projection  58 done.
+ Projection  59 done.
+ Projection  60 done.
+ Projection  61 done.
+ Projection  62 done.
+ Projection  63 done.
+ Projection  64 done.
+   1 F= -.13348011E+02 E0= -.13348011E+02  d E =0.000000E+00

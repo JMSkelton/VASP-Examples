@@ -1,0 +1,12 @@
+set data style dots
+set nokey
+set xrange [0: 5.42872]
+set yrange [-19.76033 : 47.95005]
+set arrow from  0.52229, -19.76033 to  0.52229,  47.95005 nohead
+set arrow from  1.66959, -19.76033 to  1.66959,  47.95005 nohead
+set arrow from  2.19188, -19.76033 to  2.19188,  47.95005 nohead
+set arrow from  3.33918, -19.76033 to  3.33918,  47.95005 nohead
+set arrow from  4.33277, -19.76033 to  4.33277,  47.95005 nohead
+set arrow from  4.85507, -19.76033 to  4.85507,  47.95005 nohead
+set xtics (" G "  0.00000," A "  0.52229," H "  1.66959," K "  2.19188," G "  3.33918," M "  4.33277," L "  4.85507," H "  5.42872)
+ plot "wannier90_band.dat"

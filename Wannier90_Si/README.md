@@ -14,17 +14,17 @@ Running the example
 
 3. This part involves three separate steps:
 
-  * Copy the `WAVECAR` file from the second step, and re-run VASP with `LWANNIER90 = .TRUE.`; VASP will generate several files needed by Wannier90, and will add missing information to the `wannier90.win` file.
+  * Copy the `WAVECAR` file from #2 and re-run VASP with `LWANNIER90 = .TRUE.`; VASP will generate several files needed by Wannier90, and will add missing information to the `wannier90.win` file.
 
-  * Run Wannier90 with e.g. `wannier90.x wannier90` to calculate the maximally-localised Wannier functions (written to the checkpoint file `wannier90.chk`).
+  * Run Wannier90 with e.g. `wannier90.x wannier90` to calculate the maximally-localised Wannier functions and write the checkpoint file `wannier90.chk`.
   
   * Uncomment the band-structure tags in `wannier90.win` and re-run Wannier90; the band structure data will be written to `wannier90_band.dat` and `wannier90_band.kpt`, along with scripts for Gnuplot and Grace (`wannier90_band.gnu`, `wannier90_band.agr`).
 
 Links
 -----
 
-- [http://www.slideshare.net/jmskelton/vasp-and-wannier90-a-quick-tutorial](http://www.slideshare.net/jmskelton/vasp-and-wannier90-a-quick-tutorial) *A brief overview of using the Wannier90 interface with VASP.*
+- [http://www.slideshare.net/jmskelton/vasp-and-wannier90-a-quick-tutorial](http://www.slideshare.net/jmskelton/vasp-and-wannier90-a-quick-tutorial): A brief overview of using the Wannier90 interface with VASP.
 
-- [http://cms.mpi.univie.ac.at/wiki/index.php/Si_bandstructure](http://cms.mpi.univie.ac.at/wiki/index.php/Si_bandstructure) *VASP Wiki page on calculating the Si band structure using various approaches, including via the Wannier90 interface.*
+- [http://cms.mpi.univie.ac.at/wiki/index.php/Si_bandstructure](http://cms.mpi.univie.ac.at/wiki/index.php/Si_bandstructure): VASP Wiki page on calculating the Si band structure using various approaches, including via the Wannier90 interface.
 
-- [http://wannier.org/user_guide.html](http://wannier.org/user_guide.html) *Wannier90 user-guide pages with links to a PDF manual and tutorial.*
+- [http://wannier.org/user_guide.html](http://wannier.org/user_guide.html): Wannier90 user-guide pages with links to a PDF manual and tutorial.

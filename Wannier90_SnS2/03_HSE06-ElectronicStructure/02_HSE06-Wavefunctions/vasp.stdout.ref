@@ -1,0 +1,99 @@
+ running on   32 total cores
+ distrk:  each k-point on    8 cores,    4 groups
+ distr:  one band on    8 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.1 24Jun15 (build Nov 12 2015 13:14:48) complex                        
+  
+ POSCAR found type information on POSCAR  Sn S 
+ POSCAR found :  2 types and       3 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      ALGO=A and IALGO=5X tend to fail with the tetrahedron method           |
+|      (e.g. Bloechls method ISMEAR=-5 is not variational)                    |
+|      please switch to IMSEAR=0-n, except for DOS calculations               |
+|      For DOS calculations use IALGO=53 after preconverging with ISMEAR>=0   |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.312E-01 0.598E-01 0.241E-03 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.193508785315E+02   -0.19351E+02    0.00000E+00  2176   0.912E-01 0.000E+00
+ gam= 0.000 trial= 0.400  step= 1.273 mean= 0.400
+ gam= 0.405 g(H,U,f)=  0.238E-01 0.131E-01 0.568E-04 ort(H,U,f) =-0.166E-01 0.241E-01 0.158E-03
+CGA:   2    -0.194118612111E+02   -0.60983E-01   -0.58027E-01  2176   0.370E-01 0.762E-02
+ gam= 0.405 trial= 0.444  step= 0.839 mean= 0.444
+ gam= 0.325 g(H,U,f)=  0.889E-02 0.313E-02 0.167E-05 ort(H,U,f) =-0.792E-02 0.950E-02 0.128E-04
+CGA:   3    -0.194290189107E+02   -0.17158E-01   -0.16808E-01  2176   0.120E-01 0.159E-02
+ gam= 0.325 trial= 0.463  step= 0.902 mean= 0.463
+ gam= 0.111 g(H,U,f)=  0.112E-02 0.213E-03 0.241E-06 ort(H,U,f) =-0.867E-03 0.973E-03 0.267E-05
+CGA:   4    -0.194347027269E+02   -0.56838E-02   -0.56569E-02  2176   0.133E-02 0.109E-03
+ gam= 0.111 trial= 0.485  step= 0.786 mean= 0.485
+ gam= 0.129 g(H,U,f)=  0.122E-03 0.493E-04 0.365E-07 ort(H,U,f) =-0.119E-03 0.144E-03-0.177E-07
+CGA:   5    -0.194352347831E+02   -0.53206E-03   -0.52820E-03  2176   0.172E-03 0.253E-04
+ gam= 0.129 trial= 0.500  step= 0.945 mean= 0.500
+ gam= 0.290 g(H,U,f)=  0.368E-04 0.129E-04 0.362E-07 ort(H,U,f) =-0.320E-04 0.294E-04 0.117E-07
+CGA:   6    -0.194353168103E+02   -0.82027E-04   -0.82579E-04  2176   0.498E-04-0.256E-05
+ gam= 0.290 trial= 0.523  step= 0.774 mean= 0.523
+ gam= 0.165 g(H,U,f)=  0.509E-05 0.313E-05 0.159E-07 ort(H,U,f) =-0.493E-05 0.937E-05 0.251E-07
+CGA:   7    -0.194353363296E+02   -0.19519E-04   -0.18966E-04  2176   0.823E-05 0.446E-05
+ gam= 0.165 trial= 0.535  step= 1.166 mean= 0.535
+ gam= 0.296 g(H,U,f)=  0.195E-05 0.486E-06 0.129E-08 ort(H,U,f) =-0.162E-05 0.103E-05 0.106E-08
+CGA:   8    -0.194353413913E+02   -0.50617E-05   -0.52326E-05  2176   0.244E-05-0.586E-06
+ gam= 0.296 trial= 0.567  step= 0.577 mean= 0.567
+ gam= 0.169 g(H,U,f)=  0.285E-06 0.125E-06 0.707E-09 ort(H,U,f) = 0.262E-06 0.338E-06 0.730E-09
+CGA:   9    -0.194353420475E+02   -0.65616E-06   -0.65323E-06  2176   0.411E-06 0.601E-06
+ gam= 0.169 trial= 0.567  step= 0.529 mean= 0.567
+ gam= 0.236 g(H,U,f)=  0.655E-07 0.315E-07 0.260E-09 ort(H,U,f) = 0.594E-07 0.863E-07 0.515E-09
+CGA:  10    -0.194353421801E+02   -0.13262E-06   -0.13551E-06  2176   0.972E-07 0.146E-06
+ gam= 0.236 trial= 0.565  step= 1.585 mean= 0.565
+ gam= 0.000 g(H,U,f)=  0.176E-06 0.283E-07 0.358E-10 ort(H,U,f) =-0.110E-06-0.214E-07-0.548E-10
+CGA:  11    -0.194353422188E+02   -0.38664E-07   -0.10442E-06  2176   0.205E-06-0.132E-06
+ gam= 0.000 trial= 0.616  step= 0.394 mean= 0.616
+ gam= 0.186 g(H,U,f)=  0.288E-07 0.927E-08 0.575E-11 ort(H,U,f) = 0.602E-07 0.159E-07 0.134E-10
+CGA:  12    -0.194353422507E+02   -0.31891E-07   -0.40364E-07  2176   0.381E-07 0.762E-07
+ gam= 0.186 trial= 0.605  step= 0.411 mean= 0.605
+ gam= 0.204 g(H,U,f)=  0.614E-08 0.163E-08 0.227E-11 ort(H,U,f) = 0.106E-07 0.471E-08-0.592E-12
+CGA:  13    -0.194353422599E+02   -0.92350E-08   -0.10751E-07  2176   0.777E-08 0.153E-07
+ gam= 0.204 trial= 0.595  step=-0.445 mean= 0.595
+ BOPT < 0, no correction made
+   1 F= -.19435342E+02 E0= -.19435342E+02  d E =0.000000E+00
+ writing wavefunctions

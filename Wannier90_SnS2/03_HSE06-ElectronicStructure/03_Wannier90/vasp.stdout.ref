@@ -1,0 +1,128 @@
+ running on   32 total cores
+ distrk:  each k-point on    8 cores,    4 groups
+ distr:  one band on    1 cores,    8 groups
+ using from now: INCAR     
+ vasp.5.4.1 24Jun15 (build Feb 06 2016 13:21:38) complex                        
+  
+ POSCAR found type information on POSCAR  Sn S 
+ POSCAR found :  2 types and       3 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default, NPAR=number of cores might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+NONE   1    -0.755421539585E+02   -0.75542E+02    0.00000E+00     0   0.000E+00    0.287E-14
+NONE   2    -0.755421539585E+02    0.18190E-10    0.00000E+00     0   0.000E+00
+ Projection   1 done.
+ Projection   2 done.
+ Projection   3 done.
+ Projection   4 done.
+ Projection   5 done.
+ Projection   6 done.
+ Projection   7 done.
+ Projection   8 done.
+ Projection   9 done.
+ Projection  10 done.
+ Projection  11 done.
+ Projection  12 done.
+ Projection  13 done.
+ Projection  14 done.
+ Projection  15 done.
+ Projection  16 done.
+ Projection  17 done.
+ Projection  18 done.
+ Projection  19 done.
+ Projection  20 done.
+ Projection  21 done.
+ Projection  22 done.
+ Projection  23 done.
+ Projection  24 done.
+ Projection  25 done.
+ Projection  26 done.
+ Projection  27 done.
+ Projection  28 done.
+ Projection  29 done.
+ Projection  30 done.
+ Projection  31 done.
+ Projection  32 done.
+ Projection  33 done.
+ Projection  34 done.
+ Projection  35 done.
+ Projection  36 done.
+ Projection  37 done.
+ Projection  38 done.
+ Projection  39 done.
+ Projection  40 done.
+ Projection  41 done.
+ Projection  42 done.
+ Projection  43 done.
+ Projection  44 done.
+ Projection  45 done.
+ Projection  46 done.
+ Projection  47 done.
+ Projection  48 done.
+ Projection  49 done.
+ Projection  50 done.
+ Projection  51 done.
+ Projection  52 done.
+ Projection  53 done.
+ Projection  54 done.
+ Projection  55 done.
+ Projection  56 done.
+ Projection  57 done.
+ Projection  58 done.
+ Projection  59 done.
+ Projection  60 done.
+ Projection  61 done.
+ Projection  62 done.
+ Projection  63 done.
+ Projection  64 done.
+   1 F= -.75542154E+02 E0= -.75542154E+02  d E =0.000000E+00
